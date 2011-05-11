@@ -2,7 +2,7 @@
 // $Id: theme-settings.php,v 1.7 2008/09/11 09:36:50 johnalbin Exp $
 
 // Include the definition of zen_settings() and zen_theme_get_default_settings().
-include_once './' . drupal_get_path('theme', 'zen') . '/theme-settings.php';
+include_once './' . drupal_get_path('theme', 'cairntheme') . '/theme-settings.php';
 
 
 /**
@@ -13,10 +13,10 @@ include_once './' . drupal_get_path('theme', 'zen') . '/theme-settings.php';
  * @return
  *   A form array.
  */
-function cairntheme_settings($saved_settings) {
+function cairnroblib_settings($saved_settings) {
 
   // Get the default values from the .info file.
-  $defaults = zen_theme_get_default_settings('cairntheme');
+  $defaults = zen_theme_get_default_settings('cairnroblib');
 
   // Merge the saved variables and their default values.
   $settings = array_merge($defaults, $saved_settings);
@@ -26,16 +26,16 @@ function cairntheme_settings($saved_settings) {
    */
   $form = array();
   /* -- Delete this line if you want to use this setting
-  $form['cairntheme_example'] = array(
+  $form['cairnroblib_example'] = array(
     '#type'          => 'checkbox',
     '#title'         => t('Use this sample setting'),
-    '#default_value' => $settings['cairntheme_example'],
+    '#default_value' => $settings['cairnroblib_example'],
     '#description'   => t("This option doesn't do anything; it's just an example."),
   );
   // */
 
   // Add the base theme's settings.
-  $form += zen_settings($saved_settings, $defaults);
+  $form += cairntheme_settings($saved_settings, $defaults);
 
   // Remove some of the base theme's settings.
   unset($form['themedev']['zen_layout']); // We don't need to select the base stylesheet.

@@ -202,7 +202,7 @@ width: 58%;
 #navbar-wrapper.nbl2.nbr2 .NavbarLeft,
 #navbar-wrapper.nbl3.nbr2 .NavbarLeft,
 #navbar-wrapper.nbl4.nbr2 .NavbarLeft {
-width: 42%;
+width: 30%;
 }
 
 #navbar-wrapper.nbl1.nbr0 .column,
@@ -444,8 +444,8 @@ padding-right:10px;
 }
 
 #headercontent-wrapper .HeaderLeft {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /* Feature */
