@@ -498,13 +498,13 @@ line-height: 1.25em;
 .tabs ul.primary li.active a.active {
     text-shadow: -1px -1px 0 #fff; 
     border-top: 1px solid #cccccc; 
-    border-bottom: 1px solid #ffffff; 
+    border-bottom: 1px solid #f4f4f3; 
     color: #333; 
-    background-color: #ffffff;
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#ffffff));
-    background-image: -moz-linear-gradient(#ffffff, #ffffff);
-    background-image: -o-linear-gradient(#ffffff, #ffffff);
-    background-image: linear-gradient(#ffffff, #ffffff);
+    background-color: #f4f4f3;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f4f4f3), to(#f4f4f3));
+    background-image: -moz-linear-gradient(#f4f4f3, #f4f4f3);
+    background-image: -o-linear-gradient(#f4f4f3, #f4f4f3);
+    background-image: linear-gradient(#f4f4f3, #f4f4f3);
 }
 
 #header fieldset.captcha-admin-links {

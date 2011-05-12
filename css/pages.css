@@ -229,6 +229,10 @@ ul.links li {
   padding: 0 0.5em;
 }
 
+#content ul.links li.first {
+  padding-left: 0;
+}
+
 .pager /* A list of page numbers when more than 1 page of content is available */ {
   clear: both;
   margin: 1em 0;

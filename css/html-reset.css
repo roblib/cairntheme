@@ -30,7 +30,7 @@ body {
 }
 
 body h2.title {
-  font-size: 110%; /* Fixes exaggerated text resizing in IE6 and IE7 */
+  font-size: 115%; /* Fixes exaggerated text resizing in IE6 and IE7 */
 }
 
 #skip-link,
@@ -303,7 +303,7 @@ border-top: 1px solid #BBBBBB;
 #bottom {
 font-size: 95%;
 border-top: 1px solid #BBBBBB;
-background: url(../images/unc-feature-e6e7e8.png) repeat-x scroll 0 0 #d1d4d5;
+margin-top: 1em;
 }
 
 
