@@ -204,9 +204,6 @@
       <?php endif; ?>
       <?php if ($site_name || $site_slogan): ?>
         <div id="name-and-slogan" class="clearfix">
-          <?php if ($site_slogan): ?>
-            <div id="site-slogan"><?php print $site_slogan; ?></div>
-          <?php endif; ?>
           <?php if ($site_name): ?>
             <?php if ($title): ?>
               <div id="site-name">
@@ -217,6 +214,9 @@
                 <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
               </h1>
             <?php endif; ?>
+          <?php if ($site_slogan): ?>
+            <div id="site-slogan"><?php print $site_slogan; ?></div>
+          <?php endif; ?>
           <?php endif; ?>
 
 
@@ -239,20 +239,10 @@
     </div></div></div> <!-- /.section, /#header -->
     
       <?php if ($primary_links || $navigation): ?>
-        <div id="navigation" class="nbr<?php print (int)(bool) $navigation + (int)(bool) $primary_links;?> nbl<?php print (int)(bool) $navbar_left + (int)(bool) $search_box;?>"><div class="section clearfix">
-    <div id="navbar-wrapper" class="nbr<?php print (int)(bool) $navigation + (int)(bool) $primary_links;?> nbl<?php print (int)(bool) $navbar_left + (int)(bool) $search_box;?>">
+        <div id="navigation" class="nbl<?php print (int)(bool) $navigation + (int)(bool) $primary_links;?> nbr<?php print (int)(bool) $navbar_right + (int)(bool) $search_box;?>"><div class="section clearfix">
+    <div id="navbar-wrapper" class="nbl<?php print (int)(bool) $navigation + (int)(bool) $primary_links;?> nbr<?php print (int)(bool) $navbar_right + (int)(bool) $search_box;?>">
       <!-- PRIMARY -->
-
-      <?php if ($navbar_left || $search_box): ?>
-          <div class="column NavbarLeft">
-        	<?php if ($search_box): ?>
-       			<div id="search-box"><?php print $search_box; ?></div>
-     		<?php endif; ?>
-     		<?php print $navbar_left; ?>
-      	  </div>
-      <?php endif; ?>
-
-      <div class="column NavbarRight">
+      <div class="column NavbarLeft">
       <div id="<?php print $primary_links ? 'nav' : 'superfish' ; ?>">
         <?php 
 					     if ($primary_links) {
@@ -271,9 +261,16 @@
 				        print $navigation;
 				      }
         ?>
-      </div></div> <!-- /primary, /#NavbarRight -->
+      </div></div> <!-- /primary, /#NavbarLeft -->
 
-
+      <?php if ($navbar_right || $search_box): ?>
+          <div class="column NavbarRight">
+        	<?php if ($search_box): ?>
+       			<div id="search-box"><?php print $search_box; ?></div>
+     		<?php endif; ?>
+     		<?php print $navbar_right; ?>
+      	  </div>
+      <?php endif; ?>
 	  </div>
 
         </div></div> <!-- /.section, /#navigation -->

@@ -117,9 +117,9 @@ margin-bottom:10px;
 .region-sidebar-first .block h2.title, 
 .region-sidebar-second .block h2.title, 
 div.admin-panel h3 {
--moz-border-radius-bottomright: 10px;
-border-bottom-right-radius: 10px;
-bottom-right-radius: 10px;
+-moz-border-radius-bottomright: 25px;
+border-bottom-right-radius: 25px;
+bottom-right-radius: 25px;
 background:none repeat scroll 0 0 #002e5f;
 margin:0;
 padding:5px 10px;

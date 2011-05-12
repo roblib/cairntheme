@@ -92,10 +92,10 @@ padding: 0 10px 0 15px;
 }
 
 #site-name {
-  font-size: 160%;
-  line-height: 90%;
-  font-weight: normal;
-  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    font-size: 200%;
+    font-weight: normal;
+    line-height: 95%;
+  	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 }
 
 h1#site-name,
@@ -112,8 +112,8 @@ div#site-name /* The name of the website */ {
 }
 
 #site-slogan /* The slogan (or tagline) of a website */ {
-    font-size: 100%;
-    margin-top: -4px;
+    font-size: 125%;
+    margin-top: 1px;
     text-transform: uppercase;
     font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 }
