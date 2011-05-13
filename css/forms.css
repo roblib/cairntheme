@@ -234,7 +234,9 @@ clear: right;
 }
 
 #navbar-wrapper .NavbarRight form {
-    padding: 2px 0 0 15px;
+    float: right;
+    padding-top: 0.175em;
+    padding-right: 4px;
 }
 
 

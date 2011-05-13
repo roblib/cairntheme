@@ -295,9 +295,7 @@ color: #fff !important;
 
 /* superfish styling */
 
-#navigation #nav, #navigation #superfish {
-    padding-left: 10px;
-}
+
 
 #superfish .menu li:hover ul,
 #superfish .menu li.sfHover ul {
