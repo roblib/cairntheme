@@ -230,4 +230,46 @@ div.block-book ul {
 display: none;
 }
 
+#views_slideshow_singleframe_teaser_section_image_gallery_rotating_banner-block_1 {
+position: relative;
+}
 
+#transparency {
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	width: 450px;
+	height: 40px;
+	background-color: #000;
+	opacity: 0.5;
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+}
+
+#featurecontent {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	padding-right: 10px;
+	color: #fff;
+}
+
+.slideshowtitle {
+font-weight: bold;
+font-size: 1.5em;
+margin-bottom: 4px;
+font-family: "Trebuchet MS","Lucida Grande","Lucida Sans","Lucida Sans Unicode",Tahoma,Helvetica,sans-serif;
+}
+
+#feature .slideshowtitle a:link,
+#feature .slideshowtitle a:visited {
+text-decoration: none;
+}
+
+.views_slideshow_singleframe_slide {
+height: 300px;
+}
+
+.slideshowtext {
+font-family: "Trebuchet MS","Lucida Grande","Lucida Sans","Lucida Sans Unicode",Tahoma,Helvetica,sans-serif;
+}

@@ -62,18 +62,6 @@ border-bottom: 1px solid #BBBBBB;
 
 }
 
-/* hover and active-trail color */ 
-#nav ul.menu  li.active-trail,
-#nav ul.menu  li:hover, 
-#nav .menu li li:hover, 
-#nav .menu li li li:hover,
-#superfish ul.menu  li.active-trail,
-#superfish ul.menu  li:hover, 
-#superfish .menu li li:hover, 
-#superfish .menu li li li:hover {
-        background: url(../images/unc-nav-hv-002e5f.png) repeat-x 0 0 transparent;
-
-}
 
 
 #navbar-wrapper a:hover{
