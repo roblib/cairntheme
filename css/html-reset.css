@@ -682,7 +682,8 @@ float: left
 font-size: 10px;
 }
 
-#topbar ul, #headercontent-wrapper .HeaderRight .block {
+#topbar ul, #headercontent-wrapper .HeaderRight .block,
+#headercontent-wrapper .HeaderRight #secondary-menu {
 float: right;
 }
 

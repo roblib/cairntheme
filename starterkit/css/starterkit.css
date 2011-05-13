@@ -107,6 +107,16 @@ a:active {
     color: #8B1F04;
 }
 
+/* hover and active-trail color */ 
+#header #navigation li a.active,
+#header #navigation li a:visited .active,
+#header #navigation li a:hover, 
+#header #navigation li li a:hover, 
+#header #navigation li li li a:hover {
+background: #F5AE30 !important;
+color: #000000 !important;
+}
+
 
 /* Feature */
 
@@ -279,19 +289,7 @@ opacity: 1;
     background-color: #F4DAAD;
 }
 
-/* hover and active-trail color */ 
-#header #navigation li a.active,
-#header #navigation li a:visited .active,
-#header #navigation li a:hover, 
-#header #navigation li li a:hover, 
-#header #navigation li li li a:hover {
-background: #F5AE30 !important;
-color: #000000 !important;
-}
-
 /* superfish styling */
-
-
 
 #superfish .menu li:hover ul,
 #superfish .menu li.sfHover ul {

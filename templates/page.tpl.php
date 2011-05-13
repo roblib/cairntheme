@@ -226,7 +226,23 @@
       <?php print $header_first; ?>      
 </div><!-- /#header-left -->
 <div class="column HeaderRight">
-      <?php print $header_second; ?>
+              <?php        
+        if ($secondary_links) {
+		          print theme(array('links__system_main_menu', 'links'), $secondary_links,
+            array(
+              'id' => 'secondary-menu',
+              'class' => 'links clearfix menu',
+            ),
+            array(
+              'text' => t('Secondary menu'),
+              'level' => 'h2',
+              'class' => 'element-invisible',
+            )); 
+				      }
+				      elseif (!empty($header_second)) {
+				        print $header_second;
+				      }
+        ?>
 </div><!-- /#header-right -->
       <?php endif; ?>
       <?php print $header; ?>
@@ -515,23 +531,7 @@
 
           <?php if( $secondary_links || $sidebar_footer): ?>
           <div class="column SidebarFooter"><div class="section clearfix"><div class="<?php print $secondary_links ? 'footersidebar' : 'footersidebar' ; ?>">
-        <?php 
-        if ($secondary_links) {
-		          print theme(array('links__system_main_menu', 'links'), $secondary_links,
-            array(
-              'id' => 'secondary-menu',
-              'class' => 'links clearfix menu',
-            ),
-            array(
-              'text' => t('Secondary menu'),
-              'level' => 'h2',
-              'class' => 'element-invisible',
-            )); 
-				      }
-				      elseif (!empty($sidebar_footer)) {
-				        print $sidebar_footer;
-				      }
-        ?>  
+            <?php print $sidebar_footer; ?>
           </div></div></div>
           <?php endif; ?>
 

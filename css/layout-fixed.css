@@ -445,7 +445,8 @@ width: 25%;
 width: 100%;
 }
 
-#headercontent-wrapper .block {
+#headercontent-wrapper .block,
+#headercontent-wrapper #secondary-menu {
 padding-left:12px;
 padding-right:12px;
 }
