@@ -81,6 +81,10 @@ background: linear-gradient(top, #f4daad 0%,#f5ae30 100%); /* W3C */
     color: #6B6F2A;
 }
 
+#header .HeaderRight a {
+font-weight: bold;
+}
+
 #navigation a:link {
     color: #000;
 }
@@ -116,8 +120,6 @@ a:active {
 
 /* Blocks */
 
-.region-sidebar-first .block h2.title, 
-.region-sidebar-second .block h2.title,
 #mainbottom-wrapper .MainBottomFirst .block h2.title {
 background: #f5ae30; /* Old browsers */
 background: -moz-linear-gradient(top, #f4daad 0%, #f5ae30 100%); /* FF3.6+ */
@@ -133,11 +135,14 @@ background: linear-gradient(top, #f4daad 0%,#f5ae30 100%); /* W3C */
 div.admin-panel h3,
 #mainbottom-wrapper .block h2.title,
 #preface-wrapper .block h2.title {
-background: #8B1F04; /* Old browsers */
-
+	background: #8B1F04; /* Old browsers */
 	color: #FFF;
 }
 
+.slideshowtitle  {
+	background: #333; /* Old browsers */
+	color: #f7f7f7;
+}
 
 /* Search Block */
 
