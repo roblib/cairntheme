@@ -1,7 +1,7 @@
 #!/bin/bash
 
 dir=/var/aegir/platforms/drupal-6.20/sites/all/themes/cairntheme
-user=kgbulman
+user=nhart
 group=webdevelopers
 
 # Get name of new multisite
