@@ -1,0 +1,343 @@
+/* Header */
+
+#header /* header text color */ {
+	color: #ffffff;
+}
+
+#logo {
+    border-right: 1px solid #ffffff;
+}
+
+#site-name {
+
+}
+
+#site-slogan {
+}
+    
+#headercontent-inner {
+background: #E0E0E0; /* Old browsers */
+background: -moz-linear-gradient(top, #E0E0E0 0%, #EFEFEF 28%, #F9F9F9 67%, #FFFFFF 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#E0E0E0), color-stop(28%,#EFEFEF), color-stop(67%,#F9F9F9), color-stop(100%,#FFFFFF)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #E0E0E0 0%,#EFEFEF 28%,#F9F9F9 67%,#FFFFFF 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #E0E0E0 0%,#EFEFEF 28%,#F9F9F9 67%,#FFFFFF 100%); /* Opera11.10+ */
+background: -ms-linear-gradient(top, #E0E0E0 0%,#EFEFEF 28%,#F9F9F9 67%,#FFFFFF 100%); /* IE10+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E0E0E0', endColorstr='#FFFFFF',GradientType=0 ); /* IE6-9 */
+background: linear-gradient(top, #E0E0E0 0%,#EFEFEF 28%,#F9F9F9 67%,#FFFFFF 100%); /* W3C */
+}
+
+#headercontent-wrapper .section {
+    border-bottom: 1px solid #CCCCCC;
+    margin-bottom: 0px;
+}
+
+
+/* Navbar */
+
+#navbar-wrapper {
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top, #ffffff 0%, #eeeeee 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#eeeeee)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #ffffff 0%,#eeeeee 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #ffffff 0%,#eeeeee 100%); /* Opera11.10+ */
+background: -ms-linear-gradient(top, #ffffff 0%,#eeeeee 100%); /* IE10+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+background: linear-gradient(top, #ffffff 0%,#eeeeee 100%); /* W3C */
+}
+
+#navigation .section {
+    line-height: 1em;
+}
+
+/* Links */
+
+#header a:link {
+    color: #ffffff;
+}
+#header a:visited {
+    color: #ffffff;
+}
+#header a:hover, #header a:focus {
+    color: #ffffff;
+}
+#header a:active {
+    color: #ffffff;
+}
+
+#header .HeaderRight a:link {
+    color: #464aa4;
+}
+#header .HeaderRight a:visited {
+    color: #464aa4;
+}
+#header .HeaderRight a:hover, #header .HeaderRight a:focus {
+    color: #464aa4;
+}
+#header .HeaderRight a:active {
+    color: #464aa4;
+}
+
+#header .HeaderRight a {
+font-weight: bold;
+}
+
+#navigation a:link {
+    color: #000000;
+}
+#navigation a:visited {
+    color: #000000;
+}
+#navigation a:hover {
+    color: #000000;
+}
+#navigation a.active {
+    color: #000000;
+}
+
+a:link {
+    color: #ffffff;
+}
+a:visited {
+    color: #ffffff;
+}
+a:hover, a:focus {
+    color: #ffffff;
+}
+a:active {
+    color: #ffffff;
+}
+
+/* hover and active-trail color */ 
+#header #navigation li a.active,
+#header #navigation li a:visited .active,
+#header #navigation li a:hover, 
+#header #navigation li li a:hover, 
+#header #navigation li li li a:hover {
+background: #eeeeee !important;
+color: #000000 !important;
+}
+
+
+/* Feature */
+
+.center-wrapper {
+    color: #222;
+}
+
+/* Blocks */
+
+#mainbottom-wrapper .MainBottomFirst .block h2.title {
+background: #eeeeee; /* Old browsers */
+background: -moz-linear-gradient(top, #ffffff 0%, #eeeeee 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#eeeeee)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #ffffff 0%,#eeeeee 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #ffffff 0%,#eeeeee 100%); /* Opera11.10+ */
+background: -ms-linear-gradient(top, #ffffff 0%,#eeeeee 100%); /* IE10+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+background: linear-gradient(top, #ffffff 0%,#eeeeee 100%); /* W3C */
+	color: #000;
+}
+
+div.admin-panel h3,
+#mainbottom-wrapper .block h2.title,
+#preface-wrapper .block h2.title {
+	background: #ffffff; /* Old browsers */
+	color: #FFF;
+}
+
+.slideshowtitle  {
+	background: #333333; /* Old browsers */
+	color: #F7F7F7;
+}
+
+/* Search Block */
+
+
+#header .NavbarLeft #google-cse-searchbox-form ,
+#header .NavbarLeft #islandora-solr-simple-search-form,
+#header .NavbarLeft #search-box,
+#header .NavbarLeft #search-block-form {
+padding: 0.2em;
+margin-left: 10px;
+}
+
+#header #google-cse-searchbox-form .form-item,
+#header #islandora-solr-simple-search-form .form-item {
+margin: 0;
+float: left;
+}
+  
+#header #google-cse-searchbox-form .form-item label,
+#header #islandora-solr-simple-search-form .form-item label,
+#header #search-box .form-item label,
+#header #search-block-form .form-item label	{ 
+ color: #fff; /* Wrapper for the search form */
+}  
+  
+#header #google-cse-searchbox-form .form-item input,
+#header #islandora-solr-simple-search-form .form-item input, 
+#header #search-box .form-item input,
+#header #search-block-form .form-item input  {
+  margin: 0px 0px 0 0;
+  width: 230px;
+  display: inline;
+  height: 17px;
+  font-size: 9.5pt;
+  color: #CCC;
+  -moz-border-radius: 3px;
+  border-top-right: 3px;
+  -moz-border-radius: 3px;
+  border-top-left: 3px;
+  padding-right: 20px;
+   padding-left: 5px;
+  border: 1px solid #999;
+  -moz-box-shadow: none;
+  background: #fff url(../images/insearch-magglass.png) no-repeat right center;
+}
+
+#header #google-cse-searchbox-form .form-item input:hover,
+#header #islandora-solr-simple-search-form .form-item input:hover, 
+#header #search-box .form-item input:hover,
+#header #search-block-form .form-item input:hover  {
+background: #F7F7F7 url(../images/insearch-magglass.png) no-repeat right center;
+color: #ccc;
+border: 1px solid #000;
+}
+
+#header #google-cse-searchbox-form .form-item input:focus,
+#header #islandora-solr-simple-search-form .form-item input:focus, 
+#header #search-box .form-item input:focus,
+#header #search-block-form .form-item input:focus  {
+-moz-box-shadow: 0 0 3px #000000;
+background:#fff url(../images/insearch-magglass.png) no-repeat right center;
+border:1px solid #EEEEEE;
+color:#333333;
+outline-color:-moz-use-text-color;
+outline-style:none;
+outline-width:medium;
+text-shadow:0 1px 0 #FFFFFF;
+}
+
+
+#header #google-cse-searchbox-form  input.form-submit, 
+#header #islandora-solr-simple-search-form input.form-submit, 
+#header #search-form input.form-submit, 
+#header #search-box input.form-submit,
+#header #search-block-form input.form-submit {
+height: 21px;
+width: 21px;
+cursor: pointer;
+text-indent: -9999px;
+border: none;
+/* background: url(../images/mag_glass/grey-mag_glass.png) no-repeat left top;  */
+display: none;
+clear: right;
+}
+  
+#header #google-cse-searchbox-form  .block-search .form-item  textarea:focus,
+#header #islandora-solr-simple-search-form  .block-search .form-item  textarea:focus, 
+#header #islandora-solr-simple-search-form  .block-search .form-item  textarea:focus input:focus, 
+#header #search-form  .block-search .form-item  textarea:focus, 
+#header #search-form  .block-search .form-item  textarea:focus input:focus,
+#header #search-block-form .block-search .form-item  textarea:focus,
+#header #search-block-form .block-search .form-item  textarea:focus  input:focus	
+{
+  border: 2px solid #2E5067;
+}
+
+/* superfish borders */
+#nav li, #superfish li {
+border-right: 1px solid #eeeeee;
+}
+
+#nav li.first, #superfish li.first {
+    border-left: 1px solid #eeeeee;
+}
+
+#superfish .menu li li.first,
+#superfish .menu li li li.first {
+border-top:1px solid #eeeeee;
+}
+
+#superfish .menu li li,
+#superfish .menu li li li {
+border-bottom:1px solid #eeeeee; 
+border-left:1px solid #eeeeee;
+}
+
+/* background and link colors */
+
+#header #navigation li.active a {
+background: #eeeeee;
+}
+
+#header #navigation li a,
+#header #navigation li li a,
+#header #navigation li li li a {
+background: transparent;
+}
+
+#nav ul.menu li.active-trail, 
+#superfish ul.menu li.active-trail, 
+#nav ul.menu li:hover,
+#superfish ul.menu li:hover {
+background-color: #eeeeee;
+opacity: 1;
+}
+
+#superfish .menu li li {
+    background-color: #ffffff;
+}
+
+/* superfish styling */
+
+#superfish .menu li:hover ul,
+#superfish .menu li.sfHover ul {
+top:27px;
+}
+
+#nav li a, #superfish li a{
+font-weight:normal;
+text-transform:none;
+}
+
+#nav .menu a, #nav .menu a:visited, 
+#superfish .menu a, 
+#superfish .menu a:visited {
+   padding: 5px 1em;
+}
+
+#superfish .menu li li {
+top: -3px;
+}
+
+#superfish .menu li li li {
+top: -1px;
+}
+
+#superfish .menu li, #nav .menu li {
+    background: none repeat scroll 0 0 transparent;
+    margin-right: 0px;  
+}
+
+a > .sf-sub-indicator {
+    background-position: 0 100px;
+    top: 0.6em;
+}
+
+a:focus > .sf-sub-indicator, a:hover > .sf-sub-indicator, a:active > .sf-sub-indicator, li:hover > a > .sf-sub-indicator, li.sfHover > a > .sf-sub-indicator {
+    background-position: -10px 100px;
+}
+
+#nav .menu a, #nav .menu a:visited, #superfish .menu a, #superfish .menu a:visited {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#superfish .menu a.sf-with-ul,
+#superfish .menu a {
+    min-width: 1px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
