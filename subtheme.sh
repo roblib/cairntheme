@@ -10,16 +10,20 @@ read sub
 
 # Get the replacement colour codes for the new theme
 
-echo -n "Enter the primary colour in HEX (red text and links on UPEI): "
+#echo -n "Enter the primary colour in HEX (red text and links on UPEI): "
+echo -n "Enter the primary colour in HEX (header text/logo and site links): "
 read red
 
-echo -n "Enter the secondary colour in HEX (gold navbar on UPEI): "
+#echo -n "Enter the secondary colour in HEX (gold navbar on UPEI): "
+echo -n "Enter the secondary colour in HEX (nav bar - bottom of gradient / hover bg): "
 read gold
 
-echo -n "Enter the secondary gradient colour in HEX (choose a lighter color - http://www.colorzilla.com/gradient-editor/ ): "
+#echo -n "Enter the secondary gradient colour in HEX (choose a lighter color - http://www.colorzilla.com/gradient-editor/ ): "
+echo -n "Enter the secondary gradient colour in HEX (top nav bar lighter color http://www.colorzilla.com/gradient-editor/): "
 read goldgradient
 
-echo -n "Enter the third replacement colour (green highlights on UPEI): "
+#echo -n "Enter the third replacement colour (green highlights on UPEI): "
+echo -n "Enter the third replacement colour (header - top right links): "
 read green
 
 # Stripout any dashes in new name
