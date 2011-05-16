@@ -1,11 +1,11 @@
 /* Header */
 
 #header /* header text color */ {
-	color: #ffffff;
+	color: #000000;
 }
 
 #logo {
-    border-right: 1px solid #ffffff;
+    border-right: 1px solid #000000;
 }
 
 #site-name {
@@ -95,16 +95,16 @@ font-weight: bold;
 }
 
 a:link {
-    color: #ffffff;
+    color: #000000;
 }
 a:visited {
-    color: #ffffff;
+    color: #000000;
 }
 a:hover, a:focus {
-    color: #ffffff;
+    color: #000000;
 }
 a:active {
-    color: #ffffff;
+    color: #000000;
 }
 
 /* hover and active-trail color */ 
@@ -141,8 +141,8 @@ background: linear-gradient(top, #ffffff 0%,#eeeeee 100%); /* W3C */
 div.admin-panel h3,
 #mainbottom-wrapper .block h2.title,
 #preface-wrapper .block h2.title {
-	background: #ffffff; /* Old browsers */
-	color: #FFF;
+	background: #eeeeee; /* Old browsers */
+	color: #000;
 }
 
 .slideshowtitle  {
@@ -340,4 +340,3 @@ a:focus > .sf-sub-indicator, a:hover > .sf-sub-indicator, a:active > .sf-sub-ind
     padding-left: 1em;
     padding-right: 1em;
 }
-
