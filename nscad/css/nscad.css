@@ -65,16 +65,16 @@ background: linear-gradient(top, #BCBCBC 0%,#FFFFFF 100%); /* W3C */
 }
 
 #header .HeaderRight a:link {
-    color: #bfd500;
+    color: #131d6e;
 }
 #header .HeaderRight a:visited {
-    color: #bfd500;
+    color: #131d6e;
 }
 #header .HeaderRight a:hover, #header .HeaderRight a:focus {
-    color: #bfd500;
+    color: #131d6e;
 }
 #header .HeaderRight a:active {
-    color: #bfd500;
+    color: #131d6e;
 }
 
 #header .HeaderRight a {
@@ -141,8 +141,8 @@ background: linear-gradient(top, #BCBCBC 0%,#FFFFFF 100%); /* W3C */
 div.admin-panel h3,
 #mainbottom-wrapper .block h2.title,
 #preface-wrapper .block h2.title {
-	background: #131d6e; /* Old browsers */
-	color: #FFF;
+	background: #FFFFFF; /* Old browsers */
+	color: #808e00;
 }
 
 .slideshowtitle  {
@@ -340,4 +340,3 @@ a:focus > .sf-sub-indicator, a:hover > .sf-sub-indicator, a:active > .sf-sub-ind
     padding-left: 1em;
     padding-right: 1em;
 }
-
