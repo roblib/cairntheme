@@ -82,16 +82,16 @@ font-weight: bold;
 }
 
 #navigation a:link {
-    color: #000000;
+    color: #FFFFFF;
 }
 #navigation a:visited {
-    color: #000000;
+    color: #FFFFFF;
 }
 #navigation a:hover {
-    color: #000000;
+    color: #FFFFFF;
 }
 #navigation a.active {
-    color: #000000;
+    color: #FFFFFF;
 }
 
 a:link {
@@ -114,7 +114,7 @@ a:active {
 #header #navigation li li a:hover, 
 #header #navigation li li li a:hover {
 background: #930034 !important;
-color: #000000 !important;
+color: #FFFFFF !important;
 }
 
 
@@ -135,13 +135,13 @@ background: -o-linear-gradient(top, #B24569 0%,#930034 100%); /* Opera11.10+ */
 background: -ms-linear-gradient(top, #B24569 0%,#930034 100%); /* IE10+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B24569', endColorstr='#930034',GradientType=0 ); /* IE6-9 */
 background: linear-gradient(top, #B24569 0%,#930034 100%); /* W3C */
-	color: #000;
+	color: #ffffff;
 }
 
 div.admin-panel h3,
 #mainbottom-wrapper .block h2.title,
 #preface-wrapper .block h2.title {
-	background: #000000; /* Old browsers */
+	background: #44649d; /* Old browsers */
 	color: #FFF;
 }
 
@@ -340,4 +340,3 @@ a:focus > .sf-sub-indicator, a:hover > .sf-sub-indicator, a:active > .sf-sub-ind
     padding-left: 1em;
     padding-right: 1em;
 }
-
