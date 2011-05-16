@@ -1,11 +1,11 @@
 /* Header */
 
 #header /* header text color */ {
-	color: #9f0023;
+	color: #660000;
 }
 
 #logo {
-    border-right: 1px solid #9f0023;
+    border-right: 1px solid #660000;
 }
 
 #site-name {
@@ -52,16 +52,16 @@ background: linear-gradient(top, #A0A0A0 0%,#000000 100%); /* W3C */
 /* Links */
 
 #header a:link {
-    color: #FFFFFF;
+    color: #660000;
 }
 #header a:visited {
-    color: #FFFFFF;
+    color: #660000;
 }
 #header a:hover, #header a:focus {
-    color: #FFFFFF;
+    color: #660000;
 }
 #header a:active {
-    color: #FFFFFF;
+    color: #660000;
 }
 
 #header .HeaderRight a:link {

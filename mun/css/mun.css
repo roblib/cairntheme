@@ -1,11 +1,11 @@
 /* Header */
 
 #header /* header text color */ {
-	color: #000000;
+	color: #434343;
 }
 
 #logo {
-    border-right: 1px solid #000000;
+    border-right: 1px solid #434343;
 }
 
 #site-name {
@@ -65,16 +65,16 @@ background: linear-gradient(top, #B24569 0%,#930034 100%); /* W3C */
 }
 
 #header .HeaderRight a:link {
-    color: #44649d;
+    color: #434343;
 }
 #header .HeaderRight a:visited {
-    color: #44649d;
+    color: #434343;
 }
 #header .HeaderRight a:hover, #header .HeaderRight a:focus {
-    color: #44649d;
+    color: #434343;
 }
 #header .HeaderRight a:active {
-    color: #44649d;
+    color: #434343;
 }
 
 #header .HeaderRight a {
@@ -95,16 +95,16 @@ font-weight: bold;
 }
 
 a:link {
-    color: #000000;
+    color: #434343;
 }
 a:visited {
-    color: #000000;
+    color: #434343;
 }
 a:hover, a:focus {
-    color: #000000;
+    color: #434343;
 }
 a:active {
-    color: #000000;
+    color: #434343;
 }
 
 /* hover and active-trail color */ 

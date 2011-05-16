@@ -52,16 +52,16 @@ background: linear-gradient(top, #C9C5C5 0%,#ffffff 100%); /* W3C */
 /* Links */
 
 #header a:link {
-    color: #000000;
+    color: #00529b;
 }
 #header a:visited {
-    color: #000000;
+    color: #00529b;
 }
 #header a:hover, #header a:focus {
-    color: #000000;
+    color: #00529b;
 }
 #header a:active {
-    color: #000000;
+    color: #00529b;
 }
 
 #header .HeaderRight a:link {
@@ -82,16 +82,16 @@ font-weight: bold;
 }
 
 #navigation a:link {
-    color: #000000;
+    color: #00529b;
 }
 #navigation a:visited {
-    color: #000000;
+    color: #00529b;
 }
 #navigation a:hover {
-    color: #000000;
+    color: #00529b;
 }
 #navigation a.active {
-    color: #000000;
+    color: #00529b;
 }
 
 a:link {

@@ -52,29 +52,29 @@ background: linear-gradient(top, #72D7FF 0%,#009FE1 100%); /* W3C */
 /* Links */
 
 #header a:link {
-    color: #000000;
+    color: #00529b;
 }
 #header a:visited {
-    color: #000000;
+    color: #00529b;
 }
 #header a:hover, #header a:focus {
-    color: #000000;
+    color: #00529b;
 }
 #header a:active {
-    color: #000000;
+    color: #00529b;
 }
 
 #header .HeaderRight a:link {
-    color: #000000;
+    color: #00529b;
 }
 #header .HeaderRight a:visited {
-    color: #000000;
+    color: #00529b;
 }
 #header .HeaderRight a:hover, #header .HeaderRight a:focus {
-    color: #000000;
+    color: #00529b;
 }
 #header .HeaderRight a:active {
-    color: #000000;
+    color: #00529b;
 }
 
 #header .HeaderRight a {
@@ -95,16 +95,16 @@ font-weight: bold;
 }
 
 a:link {
-    color: #000000;
+    color: #00529b;
 }
 a:visited {
-    color: #000000;
+    color: #00529b;
 }
 a:hover, a:focus {
-    color: #000000;
+    color: #00529b;
 }
 a:active {
-    color: #000000;
+    color: #00529b;
 }
 
 /* hover and active-trail color */ 

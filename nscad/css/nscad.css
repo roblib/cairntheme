@@ -141,8 +141,8 @@ background: linear-gradient(top, #BCBCBC 0%,#FFFFFF 100%); /* W3C */
 div.admin-panel h3,
 #mainbottom-wrapper .block h2.title,
 #preface-wrapper .block h2.title {
-	background: #FFFFFF; /* Old browsers */
-	color: #808e00;
+	background: #F2f7cc; /* Old browsers */
+	color: #000000;
 }
 
 .slideshowtitle  {

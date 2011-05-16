@@ -65,16 +65,16 @@ background: linear-gradient(top, #768464 0%,#558919 100%); /* W3C */
 }
 
 #header .HeaderRight a:link {
-    color: #EAA800;
+    color: #22460a;
 }
 #header .HeaderRight a:visited {
-    color: #EAA800;
+    color: #22460a;
 }
 #header .HeaderRight a:hover, #header .HeaderRight a:focus {
-    color: #EAA800;
+    color: #22460a;
 }
 #header .HeaderRight a:active {
-    color: #EAA800;
+    color: #22460a;
 }
 
 #header .HeaderRight a {
