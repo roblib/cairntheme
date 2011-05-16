@@ -1,11 +1,11 @@
 /* Header */
 
 #header /* header text color */ {
-	color: #000000;
+	color: #464aa4;
 }
 
 #logo {
-    border-right: 1px solid #000000;
+    border-right: 1px solid #464aa4;
 }
 
 #site-name {
@@ -52,16 +52,16 @@ background: linear-gradient(top, #ffffff 0%,#eeeeee 100%); /* W3C */
 /* Links */
 
 #header a:link {
-    color: #ffffff;
+    color: #464aa4;
 }
 #header a:visited {
-    color: #ffffff;
+    color: #464aa4;
 }
 #header a:hover, #header a:focus {
-    color: #ffffff;
+    color: #464aa4;
 }
 #header a:active {
-    color: #ffffff;
+    color: #464aa4;
 }
 
 #header .HeaderRight a:link {
@@ -95,16 +95,16 @@ font-weight: bold;
 }
 
 a:link {
-    color: #000000;
+    color: #464aa4;
 }
 a:visited {
-    color: #000000;
+    color: #464aa4;
 }
 a:hover, a:focus {
-    color: #000000;
+    color: #464aa4;
 }
 a:active {
-    color: #000000;
+    color: #464aa4;
 }
 
 /* hover and active-trail color */ 
