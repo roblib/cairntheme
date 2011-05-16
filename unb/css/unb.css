@@ -65,16 +65,16 @@ background: linear-gradient(top, #F26F75 0%,#c11e28 100%); /* W3C */
 }
 
 #header .HeaderRight a:link {
-    color: #FFce01;
+    color: #000000;
 }
 #header .HeaderRight a:visited {
-    color: #FFce01;
+    color: #000000;
 }
 #header .HeaderRight a:hover, #header .HeaderRight a:focus {
-    color: #FFce01;
+    color: #000000;
 }
 #header .HeaderRight a:active {
-    color: #FFce01;
+    color: #000000;
 }
 
 #header .HeaderRight a {
@@ -82,16 +82,16 @@ font-weight: bold;
 }
 
 #navigation a:link {
-    color: #000000;
+    color: #FFFFFF;
 }
 #navigation a:visited {
-    color: #000000;
+    color: #FFFFFF;
 }
 #navigation a:hover {
-    color: #000000;
+    color: #FFFFFF;
 }
 #navigation a.active {
-    color: #000000;
+    color: #FFFFFF;
 }
 
 a:link {
@@ -114,7 +114,7 @@ a:active {
 #header #navigation li li a:hover, 
 #header #navigation li li li a:hover {
 background: #c11e28 !important;
-color: #000000 !important;
+color: #FFFFFF !important;
 }
 
 
@@ -141,8 +141,8 @@ background: linear-gradient(top, #F26F75 0%,#c11e28 100%); /* W3C */
 div.admin-panel h3,
 #mainbottom-wrapper .block h2.title,
 #preface-wrapper .block h2.title {
-	background: #000000; /* Old browsers */
-	color: #FFF;
+	background: #FFce01; /* Old browsers */
+	color: #000000;
 }
 
 .slideshowtitle  {
@@ -340,4 +340,3 @@ a:focus > .sf-sub-indicator, a:hover > .sf-sub-indicator, a:active > .sf-sub-ind
     padding-left: 1em;
     padding-right: 1em;
 }
-
