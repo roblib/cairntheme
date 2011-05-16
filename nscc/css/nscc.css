@@ -65,16 +65,16 @@ background: linear-gradient(top, #59FF00 0%,#48D100 100%); /* W3C */
 }
 
 #header .HeaderRight a:link {
-    color: #66cc00;
+    color: #004B95;
 }
 #header .HeaderRight a:visited {
-    color: #66cc00;
+    color: #004B95;
 }
 #header .HeaderRight a:hover, #header .HeaderRight a:focus {
-    color: #66cc00;
+    color: #004B95;
 }
 #header .HeaderRight a:active {
-    color: #66cc00;
+    color: #004B95;
 }
 
 #header .HeaderRight a {
@@ -340,4 +340,3 @@ a:focus > .sf-sub-indicator, a:hover > .sf-sub-indicator, a:active > .sf-sub-ind
     padding-left: 1em;
     padding-right: 1em;
 }
-
