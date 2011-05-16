@@ -1,11 +1,11 @@
 /* Header */
 
 #header /* header text color */ {
-	color: #000000;
+	color: #00529b;
 }
 
 #logo {
-    border-right: 1px solid #000000;
+    border-right: 1px solid #00529b;
 }
 
 #site-name {
@@ -95,16 +95,16 @@ font-weight: bold;
 }
 
 a:link {
-    color: #000000;
+    color: #00529b;
 }
 a:visited {
-    color: #000000;
+    color: #00529b;
 }
 a:hover, a:focus {
-    color: #000000;
+    color: #00529b;
 }
 a:active {
-    color: #000000;
+    color: #00529b;
 }
 
 /* hover and active-trail color */ 
@@ -141,7 +141,7 @@ background: linear-gradient(top, #C9C5C5 0%,#ffffff 100%); /* W3C */
 div.admin-panel h3,
 #mainbottom-wrapper .block h2.title,
 #preface-wrapper .block h2.title {
-	background: #000000; /* Old browsers */
+	background: #00529b; /* Old browsers */
 	color: #FFF;
 }
 
@@ -340,4 +340,3 @@ a:focus > .sf-sub-indicator, a:hover > .sf-sub-indicator, a:active > .sf-sub-ind
     padding-left: 1em;
     padding-right: 1em;
 }
-
