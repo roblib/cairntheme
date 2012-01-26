@@ -35,30 +35,30 @@ Here are the breakdown of the theme files in detail:
  * *cairntheme/* - core template folder, considered a sub-theme to drupal, same folder that houses all of the sub-sub-themes
  * *cairntheme.info* - This defines regions, defines the core theme (zen), specifies js files and sets theme settings
  * *template.php* - preprocessor functions and hooks would go here, if a sub-sub-theme does not have a template.php, it falls back to this one
- ** *theme-settings.php* - not used, as this is part of the core template but must be present
- ** *logo.png* - default logo - not used, as this is part of the core template but must be present
- ** *favicon.ico* - default favicon - not used, as this is part of the core template but must be present
- ** *screenshot.png* - screenshot on themes page for template (not important, but must be present)
- ** *README* - readme file for the theme
- ** *js/* - this folder houses any javascript the theme may be calling
- ** *images/* - this houses core template images, if a sub-sub-theme does not call an image, the theme falls back to these in the core template
- ** *images-source* - this houses the source psd's that are used to create the header, search bar & nav bar
- ** *css/* - all of the core css files are here
- ** *templates/* - content-type, view, block, page, node, etc template override location, if a sub-sub-theme does not have template files in it's own templates dir, it falls back to this folder
- ** *starterkit/* - this is the kit used to create new sub-sub-themes
- ** *cairnroblib/* - sub-sub-theme
+ * *theme-settings.php* - not used, as this is part of the core template but must be present
+ * *logo.png* - default logo - not used, as this is part of the core template but must be present
+ * *favicon.ico* - default favicon - not used, as this is part of the core template but must be present
+ * *screenshot.png* - screenshot on themes page for template (not important, but must be present)
+ * *README* - readme file for the theme
+ * *js/* - this folder houses any javascript the theme may be calling
+ * *images/* - this houses core template images, if a sub-sub-theme does not call an image, the theme falls back to these in the core template
+ * *images-source* - this houses the source psd's that are used to create the header, search bar & nav bar
+ * *css/* - all of the core css files are here
+ * *templates/* - content-type, view, block, page, node, etc template override location, if a sub-sub-theme does not have template files in it's own templates dir, it falls back to this folder
+ * *starterkit/* - this is the kit used to create new sub-sub-themes
+ * *cairnroblib/* - sub-sub-theme
 
 h3. breakdown of files in a sub-sub-theme
 
  * *themename/* - this is the theme name, it should correspond with the name of your sub-sub-theme's .info file
- ** *logo.png* - this is the logo for the sub-sub-theme
- ** *screenshot.jpg* - this is the screenshot that appears when picking your theme in theme-settings
- ** *template.php* - custom functions can be added here that will work only for the sub-sub-theme, the sub-sub-theme will read this file first, then fall back to the core theme's template.php
- ** *theme-settings* - you can further add features for your theme-settings page here
- ** *css/* - contains 1 css file themename.css, this is for overrides of the core template to customize your sub-sub-theme
- ** *images/* - put images here that you reference from your themename.css
- ** *js/* - if you wish to add javascript to a specific sub-sub-theme, drop it here and initialize it in your themename.info
- ** *templates/* - template overrides get added here, if you are overriding a core drupal feature, then first copy the .tpl.php from the zen templates folder (example node.tpl.php) then add it to your sub-theme (core) or sub-sub-theme templates folder.. You can then directly modify it, or copy it and make a new one to further isolate the thing you want to modify (example node-content_type_name.tpl.php)
+ * *logo.png* - this is the logo for the sub-sub-theme
+ * *screenshot.jpg* - this is the screenshot that appears when picking your theme in theme-settings
+ * *template.php* - custom functions can be added here that will work only for the sub-sub-theme, the sub-sub-theme will read this file first, then fall back to the core theme's template.php
+ * *theme-settings* - you can further add features for your theme-settings page here
+ * *css/* - contains 1 css file themename.css, this is for overrides of the core template to customize your sub-sub-theme
+ * *images/* - put images here that you reference from your themename.css
+ * *js/* - if you wish to add javascript to a specific sub-sub-theme, drop it here and initialize it in your themename.info
+ * *templates/* - template overrides get added here, if you are overriding a core drupal feature, then first copy the .tpl.php from the zen templates folder (example node.tpl.php) then add it to your sub-theme (core) or sub-sub-theme templates folder.. You can then directly modify it, or copy it and make a new one to further isolate the thing you want to modify (example node-content_type_name.tpl.php)
 
 h2. How to create a new sub-sub-theme
 
