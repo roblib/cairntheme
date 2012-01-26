@@ -33,8 +33,8 @@ h2. Detailed Notes
 Here are the breakdown of the theme files in detail: 
 
  * *cairntheme/* - core template folder, considered a sub-theme to drupal, same folder that houses all of the sub-sub-themes
- ** *cairntheme.info* - This defines regions, defines the core theme (zen), specifies js files and sets theme settings
- ** *template.php* - preprocessor functions and hooks would go here, if a sub-sub-theme does not have a template.php, it falls back to this one
+ * *cairntheme.info* - This defines regions, defines the core theme (zen), specifies js files and sets theme settings
+ * *template.php* - preprocessor functions and hooks would go here, if a sub-sub-theme does not have a template.php, it falls back to this one
  ** *theme-settings.php* - not used, as this is part of the core template but must be present
  ** *logo.png* - default logo - not used, as this is part of the core template but must be present
  ** *favicon.ico* - default favicon - not used, as this is part of the core template but must be present
